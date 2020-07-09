@@ -16,6 +16,12 @@ public class Email {
         emailStatus = status.NEW;
     }
 
+    public Email(String recipient, String subject, String body){
+        this.recipient = recipient;
+        this.subject = subject;
+        this.body = body;
+    }
+
     public String getBody() {
         return body;
     }
