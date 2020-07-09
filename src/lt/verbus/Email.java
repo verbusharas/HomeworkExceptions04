@@ -12,7 +12,7 @@ public class Email {
     public Email(){
         body = "Default body.";
         subject = "Default subject";
-        recipient = "Recipient's email address";
+        recipient = "username@domain";
         emailStatus = status.NEW;
     }
 
